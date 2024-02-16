@@ -5,7 +5,7 @@
 
 - Téléchargez le projet sur github (bouton vert "Code" -> download zip -> extraire le fichier sur le bureau).
 
-- Installez les dépendances nécessaires avec powershell depuis le dossier web_app_django: "python3 -m pip install -r requirements.txt"
+- Installez les dépendances nécessaires avec powershell depuis le dossier web_app_django: "python3 -m pip install -r requirements.txt" puis "django-admin startproject merchex"
 
 - Lancez le serveur web depuis le dossier web_app_django/merchex: "python3 manage.py runserver"
 
