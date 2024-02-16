@@ -9,4 +9,4 @@
 
 - Lancez le serveur web depuis le dossier web_app_django/merchex: "python3 manage.py runserver"
 
-- Avec votre navigateur, visitez la page: "http://localhost:8000/bands"
+- Avec votre navigateur, visitez la page d'accueil: "http://localhost:8000/bands"
