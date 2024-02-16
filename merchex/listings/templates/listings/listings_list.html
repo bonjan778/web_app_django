@@ -1,0 +1,21 @@
+{% extends 'listings/base.html' %}
+
+{% block content %}
+
+<h1>Listings</h1>
+
+<p>Une liste de {{ listing|length }} items:</p>
+
+<ul>
+    {% for list in listing %}
+        <li>
+            <a href="{% url 'listings-detail' list.id %}">{{ list.title }}</a>
+            <a href="{% url 'listings-change' list.id %}">[Modifier]</a>
+        </li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'listings-create' %}">Ajouter une nouvelle liste</a>
+
+
+{% endblock %}
